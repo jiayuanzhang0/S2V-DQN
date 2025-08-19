@@ -3,6 +3,7 @@ This is a PyTorch implementation of S2V-DQN for solving graph combinational opti
 Paper: Khalil, E., Dai, H., Zhang, Y., Dilkina, B., & Song, L. (2017). Learning combinatorial optimization algorithms over graphs. Advances in neural information processing systems, 30.
 
 # Installation  
+```bash
 conda create --name S2V-DQN python=3.8 -y
 
 conda activate S2V-DQN
