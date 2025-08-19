@@ -5,16 +5,14 @@ Paper: Khalil, E., Dai, H., Zhang, Y., Dilkina, B., & Song, L. (2017). Learning 
 # Installation  
 ```bash
 conda create --name S2V-DQN python=3.8 -y
-
 conda activate S2V-DQN
 
 pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
-
 pip install matplotlib
 
 cd S2V-DQN
-
 pip install -r requirements.txt
+```
 
 # Create graph data
 python gen_data.py
