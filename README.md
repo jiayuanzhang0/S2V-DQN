@@ -12,6 +12,9 @@ pip install matplotlib
 cd S2V-DQN
 pip install -r requirements.txt
 
+# Create graph data
+python gen_data.py
+
 # Train
 python train.py
 
