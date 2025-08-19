@@ -15,13 +15,18 @@ pip install -r requirements.txt
 ```
 
 # Create graph data
+```bash
 python gen_data.py
+```
 
 # Train
+```bash
 python train.py
+```
 
 # Test
+```bash
 python test.py
-
+```
 
 
